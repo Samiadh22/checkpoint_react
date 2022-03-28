@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: 50px !important;
+  margin-right: 30px !important;
+  padding-top: 50px;
+}
+
+img.d-block.w-100 {
+  width: 800px;
+  height: 400px;
+}
+.col-lg-3.text-center.text-lg-left.aos-init.aos-animate {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding: 30px;
+}
+.mb-4 {
+  margin-bottom: 1.5rem!important;
+}
